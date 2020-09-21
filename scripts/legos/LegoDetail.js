@@ -7,10 +7,9 @@ const eventHub = document.querySelector("main");
 eventHub.addEventListener("click", event => {
   if (event.target.id.startsWith("btn-addCollection--")) {
     const [prefix, id] = event.target.id.split("--")
-    console.log("id", id);
     let brickObj = {
       userId: getUser().id,
-      brickId: id,
+      brickId: parseInt(id),
       quantity: 1
     }
     addUserBrick(brickObj);

@@ -13,7 +13,10 @@ const render = (userBrickArray) => {
     const brickObj = useLegos().find(dbBrick => {
       return dbBrick.Id === parseInt(singleBrick.brickId)
     })
-    console.log("what is brickObj", brickObj)
+
+    //add users stuff to the brick from DB
+    brickObj.userInfo = singleBrick;
+    console.log("what is brickObj from DB", brickObj)
     return CollectionDetail(brickObj)
   })
   collectionDisplay.innerHTML = HTMLArray.join("");
