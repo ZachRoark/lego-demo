@@ -3,11 +3,7 @@ import { loadLegos, useLegos } from './LegoProvider.js';
 
 
 export const makeLegoList = () => {
-  // loadLegos()
-  //   .then(useLegos)
-
   const legosArray = useLegos()
-  console.log("le", legosArray);
   render(legosArray)
 
 };

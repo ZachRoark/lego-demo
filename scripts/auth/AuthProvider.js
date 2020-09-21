@@ -7,7 +7,7 @@ export const getUser = () => {
 
 export const checkUser = (userObj) => {
   //should probably check username and email match
-  return fetch(`http://localhost:8088/users?username=${userObj.username}`)
+  return fetch(`http://localhost:8088/users?userName=${userObj.userName}`)
     .then(response => response.json())
     .then(parsedResponse => {
       authUser = parsedResponse;

@@ -21,7 +21,6 @@ loadLegos()
 
   })
 
-//login / register
 
 //show user collection after login
 eventHub.addEventListener("userIsAuthed", () => {

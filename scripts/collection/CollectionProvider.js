@@ -1,4 +1,5 @@
-let userBlocks = []
+// let userBlocks = []
+import {getUser} from './../auth/AuthProvider.js'
 
 const eventHub = document.querySelector("main")
 
@@ -8,6 +9,7 @@ const dispatchUserBricksChanged = () => {
 }
 
 export const loadUsersBricks = (userId) => {
+  console.log("load user bricks now", userId);
   return fetch(`http://localhost:8088/userBricks?userId=${userId}`)
     .then(response => response.json())
 }
@@ -23,6 +25,8 @@ export const addUserBrick = (brickObj) => {
     },
     body: JSON.stringify(brickObj)
   })
-    .then(loadUsersBricks)
+    .then(() => {
+      loadUsersBricks(getUser().id)
+    })
     .then(dispatchUserBricksChanged)
 }
