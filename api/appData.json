@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "taco",
+      "email": "taco@home.com"
+    },
+    {
+      "id": 2,
+      "username": "Adam",
+      "email": "adam@home.com"
+    },
+    {
+      "id": 3,
+      "username": "Sage",
+      "email": "sage@home.com"
+    }
+  ],
+  "userBricks": [
+    {
+      "id": 1,
+      "brickId": 1,
+      "quantity": 6,
+      "userId": 1
+    },
+    {
+      "userId": 1,
+      "brickId": "3",
+      "quantity": 1,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "brickId": "5",
+      "quantity": 1,
+      "id": 3
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "brickId": 1,
+      "note": "I love red blocks"
+    }
+  ]
+}

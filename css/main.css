@@ -1,0 +1,10 @@
+body {
+  background-color: lightsteelblue;
+}
+.btn-div {
+  background-color: black;
+}
+
+main {
+  display: flex;
+}
