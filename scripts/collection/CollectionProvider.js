@@ -14,7 +14,7 @@ export const loadUsersBricks = (userId) => {
 }
 
 export const getSingleBrick = (id) => {
-  return fetch(`http://localhost:8088/userBricks?userId=${getUser().id}&brickId=${id}`)
+  return fetch(`http://localhost:8088/userBricks/${id}`)
     .then(response => response.json())
 }
 

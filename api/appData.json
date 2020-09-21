@@ -14,15 +14,24 @@
       "id": 3,
       "username": "Sage",
       "email": "sage@home.com"
+    },
+    {
+      "username": "noTtaco",
+      "email": "",
+      "id": 4
+    },
+    {
+      "username": "ttttttt",
+      "email": "",
+      "id": 5
+    },
+    {
+      "username": "vvv",
+      "email": "",
+      "id": 6
     }
   ],
   "userBricks": [
-    {
-      "brickId": "1",
-      "userId": 1,
-      "quantity": 12,
-      "id": 1
-    },
     {
       "brickId": "2",
       "userId": 1,
@@ -34,6 +43,34 @@
       "brickId": 7,
       "quantity": 1,
       "id": 3
+    },
+    {
+      "brickId": 1,
+      "quantity": 1,
+      "id": 4
+    },
+    {
+      "brickId": 4,
+      "quantity": 1,
+      "id": 5
+    },
+    {
+      "userId": 5,
+      "brickId": 1,
+      "quantity": 1,
+      "id": 6
+    },
+    {
+      "brickId": 7,
+      "userId": 6,
+      "quantity": 2,
+      "id": 7
+    },
+    {
+      "brickId": 1,
+      "userId": 6,
+      "quantity": 1000,
+      "id": 8
     }
   ],
   "notes": [
