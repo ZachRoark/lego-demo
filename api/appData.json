@@ -14,34 +14,19 @@
       "id": 3,
       "username": "Sage",
       "email": "sage@home.com"
-    },
-    {
-      "username": "noTtaco",
-      "email": "",
-      "id": 4
-    },
-    {
-      "username": "ttttttt",
-      "email": "",
-      "id": 5
-    },
-    {
-      "username": "vvv",
-      "email": "",
-      "id": 6
     }
   ],
   "userBricks": [
     {
       "brickId": 2,
       "userId": 1,
-      "quantity": 3333,
+      "quantity": 33333,
       "id": 2
     },
     {
       "brickId": 7,
       "userId": 1,
-      "quantity": 603,
+      "quantity": 60322,
       "id": 3
     },
     {
@@ -71,6 +56,12 @@
       "userId": 6,
       "quantity": 1000,
       "id": 8
+    },
+    {
+      "brickId": 6,
+      "userId": 1,
+      "quantity": 1322,
+      "id": 9
     }
   ],
   "notes": [
