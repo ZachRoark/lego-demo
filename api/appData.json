@@ -18,88 +18,50 @@
   ],
   "userBricks": [
     {
-      "id": 1,
-      "brickId": 1,
-      "quantity": 6,
-      "userId": 1
-    },
-    {
+      "brickId": 2,
       "userId": 1,
-      "brickId": "3",
-      "quantity": 1,
+      "quantity": 33333,
       "id": 2
     },
     {
+      "brickId": 7,
       "userId": 1,
-      "brickId": "5",
-      "quantity": 1,
+      "quantity": 60322,
       "id": 3
     },
     {
-      "userId": 1,
-      "brickId": "6",
+      "brickId": 1,
       "quantity": 1,
       "id": 4
     },
     {
-      "userId": 1,
-      "brickId": "7",
+      "brickId": 4,
       "quantity": 1,
       "id": 5
     },
     {
-      "userId": 1,
-      "brickId": "9",
+      "userId": 5,
+      "brickId": 1,
       "quantity": 1,
       "id": 6
     },
     {
-      "userId": 1,
-      "brickId": "13",
-      "quantity": 1,
+      "brickId": 7,
+      "userId": 6,
+      "quantity": 2,
       "id": 7
     },
     {
-      "userId": 1,
-      "brickId": "10",
-      "quantity": 1,
+      "brickId": 1,
+      "userId": 6,
+      "quantity": 1000,
       "id": 8
     },
     {
+      "brickId": 6,
       "userId": 1,
-      "brickId": "9",
-      "quantity": 1,
+      "quantity": 1322,
       "id": 9
-    },
-    {
-      "userId": 1,
-      "brickId": "11",
-      "quantity": 1,
-      "id": 10
-    },
-    {
-      "userId": 1,
-      "brickId": "11",
-      "quantity": 1,
-      "id": 11
-    },
-    {
-      "userId": 1,
-      "brickId": "11",
-      "quantity": 1,
-      "id": 12
-    },
-    {
-      "userId": 1,
-      "brickId": "11",
-      "quantity": 1,
-      "id": 13
-    },
-    {
-      "userId": 2,
-      "brickId": 1,
-      "quantity": 1,
-      "id": 14
     }
   ],
   "notes": [
