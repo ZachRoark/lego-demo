@@ -33,15 +33,15 @@
   ],
   "userBricks": [
     {
-      "brickId": "2",
+      "brickId": 2,
       "userId": 1,
-      "quantity": 4,
+      "quantity": 3333,
       "id": 2
     },
     {
-      "userId": 1,
       "brickId": 7,
-      "quantity": 1,
+      "userId": 1,
+      "quantity": 603,
       "id": 3
     },
     {
